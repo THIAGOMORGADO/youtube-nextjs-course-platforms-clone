@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-text: #ffffff;
+  --color-error: #980000;
+  --color-paper: #232323;
+  --color-primary: #009688;
+  --color-background: #000000;
+  --primary-contrast: #ffffff;
+}
+
+/* Desafio colocar theme dark and light no projet */
+html[light]{
+  --color-text: #000000;
+  --color-error: #980000;
+  --color-paper: #ffffff;
+  --color-primary: #009688;
+  --color-background: #cacaca;
+  --primary-contrast: #ffffff;
+}
+
+html,
+body {
+  @apply bg-background text-text w-screen h-screen;
+}
