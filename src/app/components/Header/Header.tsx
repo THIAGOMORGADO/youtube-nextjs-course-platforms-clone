@@ -11,7 +11,7 @@ export default function Header() {
     <nav className="flex items-center justify-center bg-primary py-4 ">
       <ul className="flex items-center justify-center gap-4">
         <li className="my-2">
-          <Link href="/" className="border border-2 rounded-md py-2 px-1 font-bold">CODASE</Link>
+          <Link href="/" className=" border-2 rounded-md py-2 px-1 font-bold">CODASE</Link>
         </li>
         <li>
           <Link href="/" className="data-[active=true]:underline" data-active={currentPath === '/'} >Pagina Inicial</Link>
